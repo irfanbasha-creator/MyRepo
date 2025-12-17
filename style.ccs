@@ -1,0 +1,18 @@
+/* Single pyramid using CSS borders */
+.pyramid {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #FF9800;
+    margin: 50px auto;
+}
+
+/* Alternative using transform */
+.pyramid-2 {
+    width: 200px;
+    height: 200px;
+    background: #4CAF50;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: 30px auto;
+}
